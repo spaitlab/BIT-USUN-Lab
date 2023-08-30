@@ -44,15 +44,15 @@
 
 - 除了模拟USV运动，该平台还便于算法训练和验证。因此，为智能USV算法的研究和泛化性能的测试提供了一个稳健的基准。该平台的预期用户群包括无人水面舰艇领域的广泛开发人员。此外，它在最大限度地减少海上调试工作量、增强算法适应性和加快算法开发周期方面发挥着至关重要的作用。
 
-![](Paper/imagepaper/2_1.PNG)
+![](../imagepaper/2_1.PNG)
 
-![](Paper/imagepaper/2_2.PNG)
+![](../imagepaper/2_2.PNG)
 
-![](Paper/imagepaper/2_3.PNG)
+![](../imagepaper/2_3.PNG)
 
-![](Paper/imagepaper/2_4.PNG)
+![](../imagepaper/2_4.PNG)
 
-![](Paper/imagepaper/2_5.PNG)
+![](../imagepaper/2_5.PNG)
 
 ### 引用
 
