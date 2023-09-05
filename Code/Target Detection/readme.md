@@ -58,36 +58,47 @@ data=/content/yolov5/data/coco.yaml, weights=['yolov5s.pt'],
 Point cloud classification with PointNet：
 数据集：ModelNet10模型数据集
 需要的库：os、glob、trimesh、numpy、tensorflow
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/9.png)
+
 yolov5 目标检测案例setup
 Clone GitHub https://github.com/ultralytics/yolov5, install https://github.com/ultralytics/yolov5/blob/master/requirements.txt and check PyTorch and GPU.
-
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/6.png)
 ### 快速开始
 
 Point cloud classification with PointNet：https://colab.research.google.com/drive/1hOp_nO3X0fxO8TImdDq9FiYO3ovL4vWF
+
 YOLOv5：https://colab.research.google.com/github/ultralytics/yolov5/blob/master/tutorial.ipynb#scrollTo=X58w8JLpMnjH
 
 
 ### 代码运行效果
 Point cloud classification with PointNet运行效果：
 通过trimesh库读取并可视化.off文件。
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/8.png)
 
 通过.sample（） 执行 unifrom 随机采样，把网格文件转化为点云
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/7.png)
 
 生成数据集，并且设置采样和批量大小的点数。
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/99.png)
 
 数据增强
 
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/98.png)
+
 构建模型
 每个卷积和全连接层（端层除外）由卷积/dense -> 批量归一化 -> ReLU 激活组成。
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/97.png)
 
 定义模型后，可以使用 .compile（） 和 .fit（）训练
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/96.png)
 
 通过matplotlib 来可视化我们训练好的模型性能。
-
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/95.png)
 
 YOLOv5案例代码运行效果
 1.detect检测识别
 对给定数据来源中的数据输入模型进行检测
+
 detect: weights=['yolov5s.pt'], source=data/images, data=data/coco128.yaml, imgsz=[640, 640], conf_thres=0.25, iou_thres=0.45, max_det=1000, device=, view_img=False, save_txt=False, save_csv=False, save_conf=False, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=runs/detect, name=exp, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False, vid_stride=1
 YOLOv5 🚀 v7.0-214-g8c30c58 Python-3.10.12 torch-2.0.1+cu118 CUDA:0 (Tesla T4, 15102MiB)
 
@@ -97,7 +108,7 @@ image 1/2 /content/yolov5/data/images/bus.jpg: 640x480 4 persons, 1 bus, 40.9ms
 image 2/2 /content/yolov5/data/images/zidane.jpg: 384x640 2 persons, 2 ties, 41.3ms
 Speed: 0.5ms pre-process, 41.1ms inference, 127.6ms NMS per image at shape (1, 3, 640, 640)
 Results saved to runs/detect/exp
-
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/0.png)
 2.validate 验证
 对模型对数据集的分析结果进行验证，得到准确率
 val: data=/content/yolov5/data/coco.yaml, weights=['yolov5s.pt'], batch_size=32, imgsz=640, conf_thres=0.001, iou_thres=0.6, max_det=300, task=val, device=, workers=8, single_cls=False, augment=False, verbose=False, save_txt=False, save_hybrid=False, save_conf=False, save_json=True, project=runs/val, name=exp, exist_ok=False, half=True, dnn=False
@@ -107,7 +118,7 @@ val: Scanning /content/datasets/coco/val2017... 4952 images, 48 backgrounds, 0 c
 val: New cache created: /content/datasets/coco/val2017.cache
 Class Images  Instances    P      R      mAP50   mAP50-95:100% 157/157[01:18<00:00,2.00it/s]
 all    5000     36335    0.671  0.519    0.566      0.371
-
+![image]()
 
 3.train 训练
 在COCO128数据集上使用--data-COCO128.yaml训练YOLOv5s模型，从预训练的--weights YOLOv5s.pt开始，或从随机初始化的--weight''-cfg YOLOv5s.yaml开始。得到模型对不同目标检测识别的准确率。
@@ -116,6 +127,8 @@ all    5000     36335    0.671  0.519    0.566      0.371
 Comet Logging and Visualization
 数据分析结果
 
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/3.png)
 
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/4.png)
 
-
+![image](https://github.com/qwer-12345-star/BIT-Unmanned-System-Understanding-and-Navigation-Lab/blob/patch-1/Code/Target%20Detection/image/5.png)
