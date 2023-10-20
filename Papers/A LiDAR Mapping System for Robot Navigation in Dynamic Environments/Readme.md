@@ -38,13 +38,18 @@
 
 - 实验结果表明，本文提出的三维LiDAR SLAM建图系统中的基于强度扫描上下文回环检测的LiDAR SLAM算法对提高定位精度贡献最大。
 - 与仅使用点云几何信息的SLAM算法相比，其在KITTI数据集上的定位精度比LeGO-LOAM算法高46.5%，比LIO-SAM算法平均定位精度高59%。
-   ![](../imagepaper/3_1.result.png)   ![](../imagepaper/3_2.result.png)
+  
+   ![](../imagepaper/3_1.png)
+  
+   ![](../imagepaper/3_2.png)
 - 同时，与这两种SLAM算法相比，本系统中SLAM算法的运行时间最多增加0.42%，保证了运行效率。
-  ![](../imagepaper/3_3.result.png)
-- 此外，我们将本文的SLAM算法与Ford AV数据集上的LeGO-LOAM算法进行了比较。实验结果表明，该算法具有较高的定位精度，运行时间在0.05%以内，验证了贡献算法的有效性。
-  ![](../imagepaper/3_4.result.png)
-- 最后，在ROS平台上，基于Gazebo仿真环境和TurtleBot3机器人模型，利用Navigation开源算法在网格地图上进行自主路径规划。实验结果表明，该系统可以在动态环境中生成不受运动物体影响的导航地图。
-  ![](../imagepaper/3_5.result.png)   ![](../imagepaper/3_6.result.png)
+  
+  ![](../imagepaper/3_3.png)
+- 此外，我们将本文的SLAM算法与Ford AV数据集上的LeGO-LOAM算法进行了比较。实验结果表明，该算法具有较高的定位精度，运行时间在0.05%以内，验证了贡献算法的有效性。  
+  ![](../imagepaper/3_4.png)
+- 最后，在ROS平台上，基于Gazebo仿真环境和TurtleBot3机器人模型，利用Navigation开源算法在网格地图上进行自主路径规划。实验结果表明，该系统可以在动态环境中生成不受运动物体影响的导航地图。  
+  ![](../imagepaper/3_5.png)  
+  ![](../imagepaper/3_6.png)
   
 
 ### 引用
