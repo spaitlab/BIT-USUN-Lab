@@ -4,7 +4,7 @@ Unmanned system perception and navigation laboratory featuring virtual reality f
 # 北京理工大学智能无人系统感知与导航实验室
 以虚实融合和具身智能为特点的无人系统感知与导航实验室
 
-您可以在这里访问我们的主页，获取更多详细信息：[实验室网址](https://spaitlab.github.io/BIT-Unmanned-System-Understanding-and-Navigation-Lab/)
+您可以在这里访问我们的主页，获取更多详细信息：[实验室网址](https://spaitlab.github.io/BIT-USUN-Lab/)
 
 ![框架](docs/imagLab/0框架图.jpg)
 
