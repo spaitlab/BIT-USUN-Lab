@@ -28,7 +28,7 @@ Unmanned system perception and navigation laboratory featuring virtual reality f
 
 利用双目相机和激光雷达获取的信息进行3D目标检测，将获取的信息以及检测结果发布到ROS平台上，以支持后续信息处理。
 
-![目标检测](docs/imagLab/目标检测.gif)
+![目标检测](docs/imagLab/3D目标检测.gif)
 ### 无人船虚实融合训练系统
 + 基于unity搭建虚拟仿真训练环境
 + 基于马尔可夫决策设计避障任务
