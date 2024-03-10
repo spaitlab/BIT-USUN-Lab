@@ -4,7 +4,7 @@
 
 **发表时间:** 2024
 
-**期刊/会议:** IEEE Transactions on Intelligent Vehicles
+**期刊:** IEEE Transactions on Intelligent Vehicles
 
 **链接:** [文章链接]()
 
