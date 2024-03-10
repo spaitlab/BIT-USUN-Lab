@@ -6,7 +6,7 @@
 
 **期刊:** IEEE Transactions on Intelligent Vehicles
 
-**链接:** [文章链接]()
+**链接:** [文章链接]() 在线发表
 
 **代码仓库:** [代码仓库链接]()
 
