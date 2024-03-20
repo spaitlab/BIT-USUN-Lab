@@ -6,7 +6,7 @@
 
 **期刊:** IEEE Transactions on Intelligent Vehicles
 
-**链接:** [文章链接]() 在线发表
+**链接:** [https://ieeexplore.ieee.org/document/10298797]() 在线发表
 
 **代码仓库:** [代码仓库链接]()
 
@@ -45,11 +45,19 @@
 - 同时，与这两种SLAM算法相比，本系统中SLAM算法的运行时间最多增加0.42%，保证了运行效率。
 
   ![](../imagepaper/3_3.png)
-- 此外，我们将本文的SLAM算法与Ford AV数据集上的LeGO-LOAM算法进行了比较。实验结果表明，该算法具有较高的定位精度，运行时间在0.05%以内，验证了贡献算法的有效性。![](../imagepaper/3_4.png)
+  
+- 此外，我们将本文的SLAM算法与Ford AV数据集上的LeGO-LOAM算法进行了比较。实验结果表明，该算法具有较高的定位精度，运行时间在0.05%以内，验证了贡献算法的有效性。
+
+  ![](../imagepaper/3_4.png)   
 - 最后，在ROS平台上，基于Gazebo仿真环境和TurtleBot3机器人模型，利用Navigation开源算法在网格地图上进行自主路径规划。实验结果表明，该系统可以在动态环境中生成不受运动物体影响的导航地图。
+  
   ![](../imagepaper/3_5.png)
   ![](../imagepaper/3_6.png)
 
 ### 引用
 
-引用格式xxx
+- Z. Zhou, X. Feng, S. Di and X. Zhou, "A LiDAR Mapping System for Robot Navigation in Dynamic Environments," in IEEE Transactions on Intelligent Vehicles, doi: 10.1109/TIV.2023.3328013.
+- keywords: {Laser radar;Simultaneous localization and mapping;Point cloud compression;Navigation;Vehicle dynamics;Robots;Robot sensing systems;Mapping system;loop closure detection;navigation map;dynamic object removal;simultaneous localization and mapping (SLAM)},
+
+
+
