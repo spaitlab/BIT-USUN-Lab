@@ -4,7 +4,7 @@ Unmanned system perception and navigation laboratory featuring virtual reality f
 # 北京理工大学智能无人系统感知与导航实验室
 以虚实融合和具身智能为特点的无人系统感知与导航实验室
 
-您可以在这里访问我们的主页，获取更多详细信息：[实验室网址](https://spaitlab.github.io/BIT-Unmanned-System-Understanding-and-Navigation-Lab/)
+您可以在这里访问我们的主页，获取更多详细信息：[实验室网址](https://spaitlab.github.io/BIT-USUN-Lab/)
 
 ![框架](docs/imagLab/0框架图.jpg)
 
@@ -13,7 +13,7 @@ Unmanned system perception and navigation laboratory featuring virtual reality f
 ### 恶劣环境下的融合3D目标检测
 多模态3D目标检测是当前自动驾驶领域的主流感知手段，它可以提供道路上的障碍物信息，供自动驾驶系统进行行动决策。实际的行驶环境比较多变，雨雪等恶劣天气会导致感知算法的性能大大下降，为了解决雨雪等恶劣天气对感知效果的影响，将天气的变化视为域偏移问题，采用域对抗网络的形式，在不依赖大量标注数据的条件下，实现提高恶劣环境下检测精度的目的。
 
-![恶劣环境](docs/imagLab/1融合3D目标检测.png)
+![恶劣环境](docs/imagLab/1融合3D目标检测.jpg)
 
 
 ### 多传感器融合目标检测算法研究
@@ -28,7 +28,7 @@ Unmanned system perception and navigation laboratory featuring virtual reality f
 
 利用双目相机和激光雷达获取的信息进行3D目标检测，将获取的信息以及检测结果发布到ROS平台上，以支持后续信息处理。
 
-![目标检测](docs/imagLab/目标检测.gif)
+![目标检测](docs/imagLab/3D目标检测.gif)
 ### 无人船虚实融合训练系统
 + 基于unity搭建虚拟仿真训练环境
 + 基于马尔可夫决策设计避障任务
