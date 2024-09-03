@@ -2,15 +2,15 @@ site_name: BIT-USUN-Lab
 
 
 nav:
-- 研究方向: 研究方向.md
+- 研究方向: ResearchDirection.md
 
-- 平台建设: 平台建设.md
+- 平台建设: PlatformConstruction.md
 
-- 最新成果: 最新成果.md
+- 最新成果: LatestResults.md
 
-- 资源公开: 资源公开.md
+- 资源公开: ResourceDisclosure.md
 
-- BIT航行器俱乐部: BIT航行器俱乐部.md
+- BIT航行器俱乐部: BITUnmannedVehicleClub.md
 
 theme:
   name: 'material'
