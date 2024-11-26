@@ -1,7 +1,7 @@
-# BIT-Unmanned-System-Understanding-and-Navigation-Lab
+# BIT-Intelligent Unmanned System Embodied Perception and Navigation Laboratory
 Unmanned system perception and navigation laboratory featuring virtual reality fusion and embodied intelligence
 
-# 北京理工大学智能无人系统感知与导航实验室
+# 北京理工大学智能无人系统具身感知与导航实验室
 以虚实融合和具身智能为特点的无人系统感知与导航实验室
 
 您可以在这里访问我们的主页，获取更多详细信息：[实验室网址](https://spaitlab.github.io/BIT-USUN-Lab/)
